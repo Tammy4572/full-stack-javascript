@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-       "start": "nodemon --exec babel-node server.js --ignore public/",
-       "dev": "webpack -wd"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
     "mongodb": "^2.2.31",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
